@@ -8,7 +8,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
-public class UserService {
+public class UserService implements IUserService{
 
     private static final UserService INSTANCE = new UserService();
 
