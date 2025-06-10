@@ -1,0 +1,80 @@
+.links-container {
+    display: flex;
+    justify-content: center; /* Căn giữa các link */
+    align-items: center;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 50px 0 50px; /* ✅ Tăng padding bao gồm cả trên/dưới */
+    gap: 10px; /* ✅ Giữ khoảng cách giữa các link */
+    margin-bottom: 15px; /* ✅ Thêm khoảng cách với phần tử bên dưới */
+}
+
+.links-container a {
+    color: #3b82f6;
+    text-decoration: none;
+    white-space: nowrap;
+    flex-shrink: 0;  /* Đảm bảo không bị ép co */
+    font-weight: 500;
+    font-size: 0.95rem; /* Thêm font-size để dễ nhìn hơn */
+    transition: color 0.3s, text-decoration 0.3s ease;
+}
+
+.links-container a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.links-container a:active {
+    color: #1d4ed8; /* Đổi màu khi nhấn */
+}
+
+.links-container a.forgot-password {
+    color: #e11d48; /* Màu đỏ cho link "Quên mật khẩu?" */
+}
+
+.links-container a.forgot-password:hover {
+    color: #9b1c3e; /* Đổi màu khi hover */
+}
+
+.btn-google {
+    background: #ffffff;
+    border: 2px solid #93c5fd;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: 100%;
+    color: #1e3a8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-google:hover {
+    background: #f1f5f9;
+    border-color: #3b82f6;
+    transform: scale(1.05);
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+}
+.error-message {
+    color: #b91c1c; /* Màu đỏ đậm cho thông báo lỗi */
+    background-color: #fee2e2; /* Nền đỏ nhạt */
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #fca5a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

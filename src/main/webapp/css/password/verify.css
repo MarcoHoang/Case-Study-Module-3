@@ -1,0 +1,28 @@
+.alert-danger {
+    background-color: #fee2e2;
+    color: #dc2626;
+    border: 1px solid #ef4444;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #64748b;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    background: #f9f9ff;
+    padding: 0 4px;
+}
+
+.form-control:focus + label,
+.form-control:not(:placeholder-shown) + label {
+    top: -8px;
+    font-size: 0.75rem;
+    color: #3b82f6;
+}

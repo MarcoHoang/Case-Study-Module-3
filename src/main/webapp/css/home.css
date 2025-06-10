@@ -1,0 +1,42 @@
+.card-text {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.card-text strong {
+    color: #1e40af;
+}
+
+.btn-info {
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
+
+.btn-info:hover {
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background: linear-gradient(90deg, #ef4444, #dc2626);
+}
+
+.btn-danger:hover {
+    background: linear-gradient(90deg, #b91c1c, #991b1b);
+    transform: scale(1.05);
+}
+
+img.img-fluid.rounded {
+    border-radius: 12px;
+    max-width: 150px;
+    display: block;
+    margin: 10px 0;
+}
+
+.collapse {
+    margin-top: 20px;
+    border-top: 1px solid #93c5fd;
+    padding-top: 20px;
+}
